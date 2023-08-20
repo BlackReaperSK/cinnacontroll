@@ -1,0 +1,26 @@
+Ideias basicas do começo do projeto:
+
+- Receber o comando pelo registro TXT de dns
+- Enviar o comando como se fosse uma query HTTP
+
+DNS -> comando ->>>> cliente
+cliente -> output ->>>> HTTPS -> C2
+
+- Cliente deve fazer:
+Ler registro dns TXT ( Feito!) 
+Verificar se é um registro novo, se for, executar ( Feito! )
+Retornar Seu id, username e retorno do commando ( Feito! )
+
+
+- Servidor deve fazer:
+Fornecer Pagina web ( Feito! )
+Alterar Registro TXT de dns ( Isso vai ser triste de se fazer )
+Receber dados ( Feito maromenos )
+
+###########  PARAMETROS  ###########
+
+obtain = Retorno do comando
+id = id unico da maquina
+username = User de quem executou o comando
+
+###################################
